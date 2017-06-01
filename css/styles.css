@@ -1,0 +1,113 @@
+body {
+    padding: 20px 0;
+    font: 300 14px "Lato", sans-serif;
+    color: #666756;
+    background: #fff;
+}
+
+hr {
+    border-top: 4px solid #bbb;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+#featured-work {
+    color: #bbb
+}
+
+.author-name {
+    margin: 0;
+    font-size: 4.286em;
+}
+
+.project {
+    text-align: center;
+}
+
+.project-link {
+  font-size: 1.143em;
+  color: #666756;
+}
+
+.author-description {
+    margin: 5px;
+    font-size: 1.429em;
+}
+
+.project-image {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.project-title {
+    color: #666756;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+
+/* Very small devices */
+@media only screen and (max-width: 480px) {
+
+    .profile-picture {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .author-name {
+        font-size: 2.857em;
+    }
+
+    .project-title {
+        margin-top: 10px;
+    }
+
+    .project-link {
+        padding-bottom: 20px;
+    }
+}
+
+/* Medium devices */
+@media only screen and (max-width: 992px) {
+
+    .profile-picture {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .project-title {
+        margin-top: 10px;
+    }
+
+    .project-link {
+        padding-bottom: 20px;
+    }
+}
+
+
+/* Small devices */
+@media only screen and (max-width: 600px) {
+
+    .profile-picture {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .project-title {
+        margin-top: 10px;
+    }
+
+    .project-link {
+        padding-bottom: : 20px;
+    }
+
+    .author-name {
+        font-size: 2.857em;
+    }
+}
