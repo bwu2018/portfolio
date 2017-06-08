@@ -13,7 +13,7 @@ hr {
     font-weight: 100;
 }
 
-#featured-work {
+.featured-work {
     color: #bbb
 }
 
@@ -22,18 +22,18 @@ hr {
     font-size: 4.286em;
 }
 
+.author-description {
+    margin: 5px;
+    font-size: 1.429em;
+}
+
 .project {
     text-align: center;
 }
 
 .project-link {
-  font-size: 1.143em;
-  color: #666756;
-}
-
-.author-description {
-    margin: 5px;
-    font-size: 1.429em;
+    font-size: 1.143em;
+    color: #666756;
 }
 
 .project-image {
